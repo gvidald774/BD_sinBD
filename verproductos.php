@@ -1,3 +1,8 @@
+<?php
+    include_once("Producto.php");
+    include_once("DB.php");
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,5 +13,6 @@
 </head>
 <body>
     <p>Some more bullshit</p>
+    <?php var_dump(DB::$listaProductos); ?>
 </body>
 </html>
