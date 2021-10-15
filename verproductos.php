@@ -1,6 +1,9 @@
 <?php
+    // OBSOLETE BORRAR PÁGINA
     include_once("Producto.php");
     include_once("DB.php");
+
+    session_start();
 ?>
 
 <!DOCTYPE html>
